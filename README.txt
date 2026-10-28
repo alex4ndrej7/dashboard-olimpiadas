@@ -1,7 +1,17 @@
-Dashboard Quadro de Medalhas Olimpicas - Visualizacao de Dados (IFSEMG)
-Dupla: <NOME ALUNO 1> e <NOME ALUNO 2>
+Dashboard Quadro de Medalhas Olimpicas
+Trabalho Pratico Dash e Plotly - Visualizacao de Dados
+IF Sudeste de Minas Gerais
 
-LINK DO DASHBOARD NO RENDER: <COLAR AQUI A URL https://....onrender.com>
+Dupla:
+- Alexandre Araujo
+- Cauan Etienne
+
+LINK DO DASHBOARD (RENDER):
+https://dashboard-olimpiadas-txmt.onrender.com
+(No plano gratuito do Render, o primeiro acesso pode levar ~50 segundos para carregar.)
+
+CODIGO NO GITHUB:
+https://github.com/alex4ndrej7/dashboard-olimpiadas
 
 Arquivos
 - app.py                     codigo-fonte (Dash + Plotly Express)
@@ -10,11 +20,12 @@ Arquivos
 - render.yaml                configuracao de deploy no Render
 
 Funcionalidades
-- Mapa, area empilhada (top 10) e barras (top 10) - 1992 a 2020
-- NOVO: grafico de pizza (ouro/prata/bronze) com filtro de pais
-- NOVO: filtro global de tipo de medalha (Ouro, Prata, Bronze, Todos) nos 3 graficos
-        (mapa, area empilhada/barras) e na pizza
-- NOVO: filtro de ano olimpico (pais sede) aplicado ao grafico de barras
+- Mapa, area empilhada (top 10) e barras (top 10), de 1992 a 2020
+- Grafico de pizza (ouro/prata/bronze) com filtro de pais
+- Filtro global de tipo de medalha (Ouro, Prata, Bronze, Todos)
+- Filtro de ano olimpico (pais sede) aplicado ao grafico de barras
+- Extras: indicadores (KPIs), perfil do pais e comparacao entre paises
+  (seletor multiplo ou clique no mapa)
 
 Executar localmente
   pip install -r requirements.txt
